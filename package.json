@@ -1,5 +1,5 @@
 {
-  "name": "silverstripe-mfa",
+  "name": "robbyahnmsd-silverstripe-mfa",
   "main": "./client/src/boot/index.js",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/silverstripe/silverstripe-mfa",
