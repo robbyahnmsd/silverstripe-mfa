@@ -9,7 +9,7 @@ SilverStripe\Admin\LeftAndMain:
   extensions:
     mfaRequirementsExtension: SilverStripe\MFA\Extension\RequirementsExtension
   extra_requirements_javascript:
-    - 'silverstripe/mfa: client/dist/js/bundle-cms.js'
+    - 'robbyahnmsd/silverstripe-mfa: client/dist/js/bundle-cms.js'
   extra_requirements_css:
-    'silverstripe/mfa:client/dist/styles/bundle-cms.css':
+    'robbyahnmsd/silverstripe-mfa:client/dist/styles/bundle-cms.css':
       media: 'screen'

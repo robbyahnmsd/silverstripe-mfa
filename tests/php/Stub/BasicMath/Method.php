@@ -43,7 +43,7 @@ class Method implements MethodInterface, TestOnly
 
     public function getThumbnail(): string
     {
-        return (string) ModuleLoader::getModule('silverstripe/mfa')
+        return (string) ModuleLoader::getModule('robbyahnmsd/silverstripe-mfa')
             ->getResource('client/dist/images/totp.svg')
             ->getURL();
     }

@@ -27,7 +27,7 @@ trait BaseHandlerTrait
     {
         // Run through requirements
         if ($frontEndRequirements) {
-            Requirements::javascript('silverstripe/mfa: client/dist/js/injector.js');
+            Requirements::javascript('robbyahnmsd/silverstripe-mfa: client/dist/js/injector.js');
             Requirements::javascript('silverstripe/admin: client/dist/js/i18n.js');
         }
 
@@ -36,11 +36,11 @@ trait BaseHandlerTrait
             $method->applyRequirements();
         }
 
-        Requirements::add_i18n_javascript('silverstripe/mfa: client/lang');
+        Requirements::add_i18n_javascript('robbyahnmsd/silverstripe-mfa: client/lang');
 
         $suffix = $frontEndRequirements ? '' : '-cms';
-        Requirements::javascript("silverstripe/mfa: client/dist/js/bundle{$suffix}.js");
-        Requirements::css("silverstripe/mfa: client/dist/styles/bundle{$suffix}.css");
+        Requirements::javascript("robbyahnmsd/silverstripe-mfa: client/dist/js/bundle{$suffix}.js");
+        Requirements::css("robbyahnmsd/silverstripe-mfa: client/dist/styles/bundle{$suffix}.css");
     }
 
     /**

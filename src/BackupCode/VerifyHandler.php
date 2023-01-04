@@ -43,7 +43,7 @@ class VerifyHandler implements VerifyHandlerInterface
     {
         // Provide a path to the graphic shown
         return [
-            'graphic' => ModuleLoader::getModule('silverstripe/mfa')
+            'graphic' => ModuleLoader::getModule('robbyahnmsd/silverstripe-mfa')
                 ->getResource('client/dist/images/recovery-codes.svg')->getURL(),
         ];
     }

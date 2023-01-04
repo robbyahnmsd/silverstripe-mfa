@@ -142,7 +142,7 @@ class SchemaGenerator
      */
     protected function getResources()
     {
-        $module = ModuleLoader::getModule('silverstripe/mfa');
+        $module = ModuleLoader::getModule('robbyahnmsd/silverstripe-mfa');
 
         return [
             'user_help_link' => Config::inst()->get(LoginHandler::class, 'user_help_link'),

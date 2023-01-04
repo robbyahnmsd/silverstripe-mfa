@@ -56,7 +56,7 @@ class Method implements MethodInterface
 
     public function getThumbnail(): string
     {
-        return (string) ModuleLoader::getModule('silverstripe/mfa')
+        return (string) ModuleLoader::getModule('robbyahnmsd/silverstripe-mfa')
             ->getResource('client/dist/images/locked-letter.svg')
             ->getURL();
     }
